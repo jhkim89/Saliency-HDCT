@@ -1,6 +1,8 @@
 # Saliency-HDCT
 Matlab Implementation of the paper "Salient Region Detection via High-Dimensional Color Transform and Local Spatial Support" 
 
+https://sites.google.com/site/kjw02040/hdct
+
 ## Abstract
 In this paper, we introduce a novel technique to automatically detect salient regions of an image via high-dimensional color transform. Our main idea is to represent a saliency map of an image as a linear combination of high-dimensional color space where salient regions and backgrounds can be distinctively separated. This is based on an observation that salient regions often have distinctive colors compared to the background in human perception, but human perception is often complicated and highly nonlinear. By mapping a low dimensional RGB color to a feature vector in a high-dimensional color space, we show that we can linearly separate the salient regions from the background by finding an optimal linear combination of color coefficients in the high-dimensional color space. Our high dimensional color space incorporates multiple color representations including RGB, CIELab, HSV and with gamma corrections to enrich its representative power. Our experimental results on three benchmark datasets show that our technique is effective, and it is computationally efficient in comparison to previous state-of-the-art techniques.
 
